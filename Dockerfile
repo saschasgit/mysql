@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/s2i-core:rhel8.4
+FROM registry.access.redhat.com/rhel8/mysql-80
 
 ENV MYSQL_VERSION=8.0 \
     APP_DATA=/opt/app-root/src \
